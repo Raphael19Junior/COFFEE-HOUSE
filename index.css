@@ -1,0 +1,80 @@
+body {
+    background-image: url(coffee-of-the-month.jpg);
+    background-size: 1024px;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  header {
+    background-color: #333;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+  }
+  
+  nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  nav li {
+    display: inline-block;
+    margin-right: 20px;
+  }
+  
+  nav li a {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  main {
+    padding: 20px;
+  }
+.featured-drink {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 30px;
+  }
+  
+  .featured-drink img {
+    max-width: 20%;
+    margin-left: 5%;
+  }
+br
+  .featured-drink h3 {
+    font-size: 40px;
+    margin-top: 0;
+    
+  }
+  
+  .location {
+    margin-bottom: 30px;
+    margin-left: 15%;
+  }
+  
+  .reviews {
+    margin-bottom: 30px;
+  }
+  
+  .review {
+    margin-bottom: 10px;
+  }
+  
+  .review p {
+    margin: 0;
+  }
+  
+  .subscribe {
+    margin-bottom: 30px;
+  }
+  footer {
+    background-color: #333;
+    color: #fff;
+    padding: 5px;
+    margin-top: 10px;
+    text-align: center;
+  }
